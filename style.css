@@ -108,7 +108,7 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
   {
       position:absolute;
       bottom: -10px;
-      right: 20px;
+      left: 20px;
       font-weight: bold;
       font-style: italic;
       text-shadow: 12px, 12px, gray;
