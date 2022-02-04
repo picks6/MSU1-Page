@@ -107,8 +107,8 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
   .subhead-text
   {
       position:absolute;
-      bottom: -10px;
-      left: 20px;
+      bottom: 20px;
+      right: 35px;
       font-weight: bold;
       font-style: italic;
       text-shadow: 12px, 12px, gray;
@@ -153,11 +153,12 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
 
 .msu-card-jfg
     {
-    filter: brightness(50%);
-    -webkit-filter: brightness(50%)
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%)
     }
     
 .msu-card-jfg:hover{
+    cursor: pointer;
     filter: brightness(100%);
     -webkit-filter: brightness(100%);
     -webkit-transition: all 1s ease;
@@ -203,8 +204,8 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
 
 .msu-card-pss
     {
-    filter: brightness(50%);
-    -webkit-filter: brightness(50%)
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%)
     }
     
 .msu-card-pss:hover{
@@ -233,8 +234,8 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
 
 .msu-card-sf64
     {
-    filter: brightness(50%);
-    -webkit-filter: brightness(50%)
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%)
     }
     
 .msu-card-sf64:hover{
@@ -263,8 +264,8 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
 
 .msu-card-pd64
     {
-    filter: brightness(50%);
-    -webkit-filter: brightness(50%)
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%)
     }
     
 .msu-card-pd64:hover{

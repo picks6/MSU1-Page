@@ -14,3 +14,11 @@ $(".msu-card-sf64").on('click', function(){
 $(".msu-card-pd64").on('click', function(){
     $('<a href="https://drive.google.com/file/d/1_fvfnv1t_73lrQtv5f4yaFI4OzptwrSl/view?usp=sharing" target="blank"></a>')[0].click();    
 })
+
+$(document).ready(function(){
+    $(".msu-card-jfg").hover(
+        function(){
+            $(this).toggleClass("col-8");
+        }
+    );
+});
