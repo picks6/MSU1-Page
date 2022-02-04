@@ -1,0 +1,374 @@
+
+
+* 
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body 
+{
+    background-color: #d9dcd6;
+}
+/* Header with my name, and nav bar justified to the right */
+.header 
+{
+    width:100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+    color: #ffffff;
+    position: absolute;
+}
+
+.header h1
+{
+    margin-left:10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 48px;
+}
+
+
+/*Subheader  with gradient background */
+.subhead 
+{
+    width:100%;
+    font-family: 'Trebuchet', 'Lucida Sans Unicode',  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0cbaba;
+    background-image: linear-gradient(105deg, #0cbaba 0%, #380036 74%);
+    height:250px;
+    min-height: 100px;
+    max-height: 500px;
+    color: #ffffff;  
+    font-size:24px;
+    position:relative;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+/*Absolutely positioned subheader text at bottom right of the subheader container */
+
+
+body 
+{
+    background-color: #d9dcd6;
+}
+
+.Content
+{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: lightgray;
+}
+.About-Me 
+{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+}
+.About-Me-Left
+{
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    width:90%;
+    color:#2c69d1;
+    text-align: top;
+}
+
+.About-Me-Text
+    {
+    margin-left:50px;       
+    margin-top:75px;
+    font-size: 24px;
+    }
+
+.ProfileImage{
+    min-height:100px;
+    max-height: 200px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.About-Me-Right
+{
+    width: 10%;
+    border-left: 2px solid #2c69d1;
+    color: #2c69d1;
+    text-align:center;
+    margin-top:75px;
+    margin-right: 5px;
+    font-size:24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Creating Work Container for the entire Work subsection */
+.Work
+{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    margin-top:25px;
+}
+
+/* Left flexbox to contain the work link and apply right side border*/
+.Work-Left
+{
+        width: 10%;
+        border-right: 2px solid #2c69d1;
+        color: #2c69d1;
+        text-align:center;
+        margin:5px;
+        margin-top: 20px;
+        padding-top: 250px;
+        font-size:24px;
+        font-weight: bold;
+        text-align: center;
+}
+
+/* Right side of the work container holds the cards */
+.Work-Right
+{
+    width: 90%;
+    margin:20px;
+}
+/* Set Work Card 1 as an image, but set following work cards as gradient background */
+.Work-Card-1
+{
+    width: 100%;
+    position:relative;
+    background-image: url('https://images.pexels.com/photos/7135057/pexels-photo-7135057.jpeg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background:linear-gradient(90.6deg,  rgba(59,158,255,1) -1.2%, rgba(246,135,255,1) 91.6% );
+    */
+    min-height: 400px;
+ 
+}
+
+
+    /*
+Absolutely positioning Card Text at the bottom right of the Work Cards
+    */
+.Card-Text
+{
+    position:absolute;
+    bottom: 20px;
+    right: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px, 1px, 2px, gray;
+    color: white;
+    font-size: 24px;
+}
+.footer 
+{
+    padding: 10px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+}  
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+    color: white;
+    background-image: url("https://cdn.gamer-network.net/2020/usgamer/A-Link-to-the-Past-Map-Header1-05292020.jpg/EG11/thumbnail/1920x1080/format/jpg/quality/65/the-20-best-in-game-maps.jpg");
+    height: 50vh;
+    position: relative;
+  }
+
+.jumbotron h1{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  .subhead-text
+  {
+      position:absolute;
+      bottom: 20px;
+      right: 10px;
+      font-weight: bold;
+      font-style: italic;
+      text-shadow: 12px, 12px, gray;
+  }
+  
+  footer a
+      {
+          text-decoration: none;
+      }
+
+.description a
+      {
+          color: blue;
+      }
+.description
+      {
+          margin-left:5px;
+      }
+
+.msu-container
+{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-around;
+    
+}
+
+.msu-card-jfg
+    {
+    position: relative;
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url(jfg.jpg);
+    margin-bottom: 10px;
+    background-size: cover;
+    min-height: 400px;
+    }
+
+.msu-card-jfg
+    {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%)
+    }
+    
+.msu-card-jfg:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    }
+
+
+
+.card
+    {
+    flex: 0 0 49%;    
+    }
+
+ @media screen and (max-width: 992px) {
+    .card
+    {
+        flex: 1 1 100%;    
+    }
+}
+
+.jfg_text
+    {
+        background-color: #d9dcd6;
+        border:none
+    }
+
+.pss_text
+    {
+        background-color: #d9dcd6;
+        border:none
+    }
+
+.msu-card-pss
+    {
+    position: relative;
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image:url(pss.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    min-height: 400px;
+    }
+
+.msu-card-pss
+    {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%)
+    }
+    
+.msu-card-pss:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    }
+
+    .sf64_text
+    {
+        background-color: #d9dcd6;
+        border:none
+    }
+
+.msu-card-sf64
+    {
+    position: relative;
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image:url(sf64.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    min-height: 350px;
+    }
+
+.msu-card-sf64
+    {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%)
+    }
+    
+.msu-card-sf64:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    }
+
+.pd64_text
+    {
+        background-color: #d9dcd6;
+        border:none
+    }
+
+.msu-card-pd64
+    {
+    position: relative;
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image:url(pd64.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    min-height: 350px;
+    }
+
+.msu-card-pd64
+    {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%)
+    }
+    
+.msu-card-pd64:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    }
+
+.pd-card-text
+{
+    position:absolute;
+    bottom: 20px;
+    right: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 12px, 12px, gray;
+    color: white;
+    font-size: 24px;
+}
