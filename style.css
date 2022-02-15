@@ -144,7 +144,7 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     display:flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    justify-content: space-around
+    justify-content: space-around;
    
     
 }
