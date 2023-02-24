@@ -33,9 +33,12 @@ $(".msu-card-twc").on('click', function(){
 $(".msu-card-lmtrilogy").on('click', function(){
     $('<a href="https://drive.google.com/file/d/1C3HU4EZYLvEuVdzTuyTDIRsiQaKw6xwj/view?usp=sharing" target="blank"></a>')[0].click();    
 })
-$(".msu-card-toreborn").on('click', function () {
+(".msu-card-toreborn").on('click', function () {
         $('<a href="https://drive.google.com/file/d/1m0bhkS6vcDFbS5lAT-OXRWh_2cseS-6d/view?usp=sharing" target="blank"></a>')[0].click();
 })
-$(".msu-card-winter").on('click', function () {
+(".msu-card-winter").on('click', function () {
     $('<a href="https://drive.google.com/file/d/106C5dvUxtztlvOMiSKPS_1mmT_mT4QZ3/view?usp=sharing" target="blank"></a>')[0].click();
 })
+ (".msu-card-seinfeld").on('click', function () {
+     $('<a href="https://drive.google.com/file/d/1AGdD7WmlmbuSaBx4XxoZP1HmcC_BY_mU/view?usp=sharing" target="blank"></a>')[0].click();
+ }) 
